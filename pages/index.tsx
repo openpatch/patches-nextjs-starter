@@ -1,3 +1,4 @@
+import Image from "next/image";
 import {
   PatternCenter,
   Box,
@@ -18,10 +19,7 @@ export default function Home() {
           <Card>
             <CardContent>
               <Heading textAlign="center">Welcome to Patches!</Heading>
-              <img
-                width="100%"
-                src="https://openpatch.github.io/patches/patches_title.svg"
-              />
+              <Image alt="logo" width="800" height="auto" src="/patches.svg" />
               <Text textAlign="center">
                 Get started by editing pages/index.tsx.
               </Text>
