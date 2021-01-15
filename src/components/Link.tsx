@@ -1,11 +1,8 @@
 import { Link as PLink, LinkProps as PLinkProps } from "@openpatch/patches";
 import NLink, { LinkProps as NLinkProps } from "next/link";
 
-export type LinkProps = Omit<PLinkProps, "as"> & NLinkProps;
+export type LinkProps = PLinkProps & NLinkProps & { anchor?: string };
 
-/**
- * Link component for client-side routing.
- */
 export const Link = ({
   href,
   as,
@@ -14,12 +11,17 @@ export const Link = ({
   scroll,
   shallow,
   locale,
+  anchor,
   ...props
 }: LinkProps) => {
+  if (anchor) {
+    return <PLink href={anchor} {...props} />;
+  }
+
   return (
     <NLink
-      href={href}
       as={as}
+      href={href}
       prefetch={prefetch}
       replace={replace}
       scroll={scroll}
@@ -27,7 +29,7 @@ export const Link = ({
       locale={locale}
       passHref
     >
-      <PLink href={href} {...props} />
+      <PLink {...props} />
     </NLink>
   );
 };
