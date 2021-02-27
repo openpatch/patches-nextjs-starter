@@ -3066,7 +3066,7 @@ typeface-ubuntu-mono@1.1.13:
   resolved "https://registry.yarnpkg.com/typeface-ubuntu-mono/-/typeface-ubuntu-mono-1.1.13.tgz#ebcc629cf1a19703422fefbfd15824404cf6b738"
   integrity sha512-UBKNVxZukk2B+LnxxN0fwuKobwbO2u9BKyFQA07ux9pdxoKw7kUgKNXnxYH3utcvrge7wtoccnzyWwiclOWxow==
 
-typescript-styled-plugin@^0.15.0:
+typescript-styled-plugin@0.15.0:
   version "0.15.0"
   resolved "https://registry.yarnpkg.com/typescript-styled-plugin/-/typescript-styled-plugin-0.15.0.tgz#9e307f04f7cfab8c6319787bf854330326c9ba92"
   integrity sha512-OyJBLsm/yPT6vH9S8SqUCjOQf+m24GZkn6Z5+QBdNyU1ViCAWJSDFoquogbKApUhRS9Fz3G5RHuRWOTwopZemw==
