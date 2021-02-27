@@ -11,7 +11,7 @@
     "@emotion/cache": "11.1.3",
     "@emotion/react": "11.1.5",
     "@emotion/styled": "11.1.5",
-    "@openpatch/patches": "2.0.0",
+    "@openpatch/patches": "1.2.2",
     "next": "10.0.7",
     "react": "17.0.1",
     "react-dom": "17.0.1",
