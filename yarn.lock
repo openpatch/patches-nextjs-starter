@@ -459,10 +459,10 @@
   resolved "https://registry.yarnpkg.com/@next/react-refresh-utils/-/react-refresh-utils-10.0.7.tgz#866ce30fe2f321e011255e81ed5d55eeda05894b"
   integrity sha512-d/71vtQglv6m7sh4W1O9drc2hYti7UnAdEXfBLZAS354g2S80lvCRGIhbDrMx4w0rpShoxBIZboE2++LihAESg==
 
-"@openpatch/patches@1.2.2":
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/@openpatch/patches/-/patches-1.2.2.tgz#2659a4d99c48bb0da1941308ea395c25b0a1e2cd"
-  integrity sha512-MewDtM7bsU8Fwd2I45hNTMjpxUOV71CRXFQBHU2dQu7rwG3G/qArcLyjtBicluzZ7PkZMwanjbjy8DVJ6nvnVg==
+"@openpatch/patches@1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@openpatch/patches/-/patches-1.4.1.tgz#1274ff42ddf62dcf4121f5003a9ab5b2a0aa7501"
+  integrity sha512-+g09UYFj4gHadEVdr9qjyoA6zxJLQbgX3hkeTtGKi8NENpcJoyM8cDzIzu8JW/8Yo0cXJuZCV0d2EIcLeZOQYg==
   dependencies:
     codemirror "^5.59.1"
     lodash "^4.17.20"
