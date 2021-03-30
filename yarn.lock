@@ -534,14 +534,14 @@
   resolved "https://registry.yarnpkg.com/@next/react-refresh-utils/-/react-refresh-utils-10.1.1.tgz#c4db27a207919f03a25ad5253f54b919421619ce"
   integrity sha512-Ey4AR+BwEYW55dejMh06wvGhZmC+5OpY4ekwYX6Ipwk+K5jecDvbrZQCYvh4iPKNq9JV7o+D3+QuFtYaDjkXmw==
 
-"@openpatch/patches@1.6.3":
-  version "1.6.3"
-  resolved "https://registry.yarnpkg.com/@openpatch/patches/-/patches-1.6.3.tgz#c9cb4276babe6c1ee4849085f97f8a444b080c86"
-  integrity sha512-qmLnGMajMKnQxS5cJw7IcfaSK5QGOkzHS9CI0J9xLzkKA9LdLFOKc36/hoo79Wf9ZqtDUrxUwn+jSYpLt3QWHw==
+"@openpatch/patches@1.7.0":
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@openpatch/patches/-/patches-1.7.0.tgz#fb5d43b14379add00ae1bc8ee50ee72d9036876c"
+  integrity sha512-ldurGhI5yiqEfuurPnYwlyHGFgcylGb9t4en0f0/wn9rQH/ATKCo2q+I6vF1MaL4Wr7pjqncstfztPeARYg0+A==
   dependencies:
-    codemirror "^5.59.1"
-    lodash "^4.17.20"
-    polished "^4.0.5"
+    codemirror "^5.60.0"
+    lodash "^4.17.21"
+    polished "^4.1.1"
     react-codemirror2 "^7.2.1"
     react-markdown "^5.0.3"
     react-modal "^3.12.1"
@@ -1102,10 +1102,10 @@ clipboard@^2.0.0:
     select "^1.1.2"
     tiny-emitter "^2.0.0"
 
-codemirror@^5.59.1:
-  version "5.59.4"
-  resolved "https://registry.yarnpkg.com/codemirror/-/codemirror-5.59.4.tgz#bfc11c8ce32b04818e8d661bbd790a94f4b3a6f3"
-  integrity sha512-achw5JBgx8QPcACDDn+EUUXmCYzx/zxEtOGXyjvLEvYY8GleUrnfm5D+Zb+UjShHggXKDT9AXrbkBZX6a0YSQg==
+codemirror@^5.60.0:
+  version "5.60.0"
+  resolved "https://registry.yarnpkg.com/codemirror/-/codemirror-5.60.0.tgz#00a8cfd287d5d8737ceb73987f04aee2fe5860da"
+  integrity sha512-AEL7LhFOlxPlCL8IdTcJDblJm8yrAGib7I+DErJPdZd4l6imx8IMgKK3RblVgBQqz3TZJR4oknQ03bz+uNjBYA==
 
 color-convert@^1.9.0:
   version "1.9.3"
@@ -2268,7 +2268,7 @@ lodash.sortby@^4.7.0:
   resolved "https://registry.yarnpkg.com/lodash.sortby/-/lodash.sortby-4.7.0.tgz#edd14c824e2cc9c1e0b0a1b42bb5210516a42438"
   integrity sha1-7dFMgk4sycHgsKG0K7UhBRakJDg=
 
-lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.19, lodash@^4.17.20:
+lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.19, lodash@^4.17.21:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
@@ -2840,7 +2840,7 @@ pnp-webpack-plugin@1.6.4:
   dependencies:
     ts-pnp "^1.1.6"
 
-polished@^4.0.5:
+polished@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/polished/-/polished-4.1.1.tgz#40442cc973348e466f2918cdf647531bb6c29bfb"
   integrity sha512-4MZTrfPMPRLD7ac8b+2JZxei58zw6N1hFkdBDERif5Tlj19y3vPoPusrLG+mJIlPTGnUlKw3+yWz0BazvMx1vg==
