@@ -1,13 +1,13 @@
+import { PatchesProvider } from "@openpatch/patches";
 import "typeface-rubik";
 import "typeface-ubuntu-mono";
-
-import { ThemeProvider } from "@openpatch/patches";
+import { Link } from "../components/Link";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <ThemeProvider>
+    <PatchesProvider linkComponent={Link}>
       <Component {...pageProps} />
-    </ThemeProvider>
+    </PatchesProvider>
   );
 }
 

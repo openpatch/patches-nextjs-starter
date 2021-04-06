@@ -1,15 +1,15 @@
-import Image from "next/image";
 import {
-  PatternCenter,
+  AutoGrid,
   Box,
   Card,
   CardContent,
   Container,
   Heading,
-  AutoGrid,
+  PatternCenter,
   Text,
-  Link,
+  TextLink,
 } from "@openpatch/patches";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -29,16 +29,16 @@ export default function Home() {
             <AutoGrid columns={[1, 2]} gap="standard">
               <Card>
                 <CardContent>
-                  <Link external href="https://openpatch.github.io/patches">
+                  <TextLink href="https://openpatch.github.io/patches">
                     Documentation
-                  </Link>
+                  </TextLink>
                 </CardContent>
               </Card>
               <Card>
                 <CardContent>
-                  <Link external href="https://github.com/openpatch/patches">
+                  <TextLink href="https://github.com/openpatch/patches">
                     Source Code
-                  </Link>
+                  </TextLink>
                 </CardContent>
               </Card>
             </AutoGrid>
