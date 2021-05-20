@@ -5,10 +5,12 @@ import {
   CardContent,
   Container,
   Heading,
+  Icon,
   PatternCenter,
   Text,
   TextLink,
 } from "@openpatch/patches";
+import { Home as HomeIcon } from "@openpatch/patches/icons";
 import Image from "next/image";
 
 export default function Home() {
@@ -18,7 +20,14 @@ export default function Home() {
         <Container maxWidth="small">
           <Card>
             <CardContent>
-              <Heading textAlign="center">Welcome to Patches!</Heading>
+              <Heading textAlign="center">
+                <Box mr="small" display="inline">
+                  <Icon size="large">
+                    <HomeIcon />
+                  </Icon>
+                </Box>
+                Welcome to Patches!
+              </Heading>
               <Image alt="logo" width="800" height="auto" src="/patches.svg" />
               <Text textAlign="center">
                 Get started by editing pages/index.tsx.
