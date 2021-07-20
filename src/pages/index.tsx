@@ -6,12 +6,12 @@ import {
   Container,
   Heading,
   Icon,
+  Image,
   PatternCenter,
   Text,
   TextLink,
 } from "@openpatch/patches";
 import { Home as HomeIcon } from "@openpatch/patches/icons";
-import Image from "next/image";
 
 export default function Home() {
   return (
