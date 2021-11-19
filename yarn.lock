@@ -838,10 +838,10 @@
   dependencies:
     "@napi-rs/triples" "^1.0.3"
 
-"@openpatch/patches@5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@openpatch/patches/-/patches-5.0.0.tgz#e1dea60761bfa733523faeb830e62d571acac987"
-  integrity sha512-kLWmqBw1lTEtWgUCbyKfLcwdSa+fafpGGxlFKO3c7ngcgFHWJst6GWyU6GfD1xTj4JXTaPZpyzYVyilBiEh+Dw==
+"@openpatch/patches@5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@openpatch/patches/-/patches-5.1.0.tgz#732279e54397a78aaf6151fa61c734faa549a19f"
+  integrity sha512-MkpuF+SWOazumRd5jhlARXkvyy7UjKyDfSpLmjiqnpLVKyvSgCQRitpU+LcdKHN7h56JsBrHdaTTVn3w7JGEaQ==
   dependencies:
     "@codemirror/closebrackets" "^0.19.0"
     "@codemirror/comment" "^0.19.0"
