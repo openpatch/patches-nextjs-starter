@@ -11,10 +11,10 @@
     "@emotion/cache": "11.7.1",
     "@emotion/react": "11.9.0",
     "@emotion/styled": "11.8.1",
-    "@openpatch/patches": "5.2.1",
+    "@openpatch/patches": "6.0.0",
     "next": "12.1.6",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
     "react-hook-form": "7.31.2",
     "typeface-rubik": "1.1.13",
     "typeface-ubuntu-mono": "1.1.13"
@@ -22,9 +22,9 @@
   "devDependencies": {
     "@babel/core": "7.18.2",
     "@emotion/babel-preset-css-prop": "11.2.0",
-    "@types/node": "17.0.7",
-    "@types/react": "17.0.45",
-    "typescript": "4.7.2",
+    "@types/node": "17.0.35",
+    "@types/react": "18.0.9",
+    "typescript": "4.6.3",
     "typescript-styled-plugin": "0.18.2"
   }
 }
