@@ -804,10 +804,10 @@
   resolved "https://registry.yarnpkg.com/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-12.1.6.tgz#a350caf42975e7197b24b495b8d764eec7e6a36e"
   integrity sha512-4ZEwiRuZEicXhXqmhw3+de8Z4EpOLQj/gp+D9fFWo6ii6W1kBkNNvvEx4A90ugppu+74pT1lIJnOuz3A9oQeJA==
 
-"@openpatch/patches@6.0.0":
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/@openpatch/patches/-/patches-6.0.0.tgz#8a12da1a60a53ab48130fe8179850d8fe9208209"
-  integrity sha512-LaioWY7BbMG5jS0fYPLVqhKblu4snrTI8sLQxI/FJXUA44lq9DZd59S5Y+6UBkxM1eT/lZK+NwAOiaaqssbIFw==
+"@openpatch/patches@6.0.1":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/@openpatch/patches/-/patches-6.0.1.tgz#b61cc75edcb14aefab3392c502863a355fd8da93"
+  integrity sha512-7mdCBg0ZWfR/VyHVyWWerAAka6wQB01Z+xwwMflBQirWbpqSCMX7U/k8MMMuKulWalG8ZoLy517LodiYDXUpOw==
   dependencies:
     "@codemirror/autocomplete" "^0.20.2"
     "@codemirror/lang-java" "^0.20.0"
