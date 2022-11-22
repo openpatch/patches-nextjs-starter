@@ -12,7 +12,7 @@
     "@emotion/react": "11.10.5",
     "@emotion/styled": "11.10.5",
     "@openpatch/patches": "6.0.1",
-    "next": "12.3.3",
+    "next": "12.3.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-hook-form": "7.39.5",
